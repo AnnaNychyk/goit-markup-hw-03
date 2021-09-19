@@ -221,6 +221,14 @@ body {
   padding-bottom: 94px;
 }
 
+.work-items {
+  display: flex;
+}
+
+.work-items .item + .item {
+  margin-left: 30px;
+}
+
 .team-title {
   margin-top: 30px;
   margin-bottom: 10px;
