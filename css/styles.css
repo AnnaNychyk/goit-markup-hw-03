@@ -187,12 +187,20 @@ body {
   margin-bottom: 0;
 
   font-size: 14px;
-  line-height: 1.17;
+  line-height: 1.7;
 }
 
 .quality-section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.quality-items {
+  display: flex;
+}
+
+.quality-items .item + .item {
+  margin-left: 30px;
 }
 
 .title {
