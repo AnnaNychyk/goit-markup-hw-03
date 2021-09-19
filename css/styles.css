@@ -251,6 +251,14 @@ body {
   text-align: center;
 }
 
+.team-items {
+  display: flex;
+}
+
+.team-items .item + .item {
+  margin-left: 30px;
+}
+
 /* Footer */
 .footer {
   background-color: var(--bgc-hero-footer);
