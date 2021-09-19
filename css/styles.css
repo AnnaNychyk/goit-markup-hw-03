@@ -30,15 +30,25 @@ body {
 
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .link {
   text-decoration: none;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
 /* Header logo */
 
 .header-logo {
+  margin-right: 93px;
+
   color: var(--logo-text-color);
 
   font-family: Raleway, sans-serif;
@@ -68,6 +78,36 @@ body {
   color: var(--accent-text-color);
 }
 
+.nav {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.plink {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.auth-nav {
+  display: flex;
+}
+
+.tlink {
+  margin-left: 50px;
+}
+
 .auth-nav .link {
   color: inherit;
 }
@@ -80,14 +120,23 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 /* Hero */
 .hero {
   background-color: var(--bgc-hero-footer);
 }
 
-.hero-title {
-  color: var(--white-text-color);
+.page-hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 
+.hero-title {
+  margin: 0 auto 30px auto;
+
+  width: 696px;
+  text-align: center;
+  color: var(--white-text-color);
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -98,6 +147,11 @@ body {
 }
 
 .hero-button {
+  margin: 0 auto;
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: 0;
+
   color: var(--white-text-color);
   background-color: var(--accent-text-color);
   cursor: pointer;
@@ -116,6 +170,9 @@ body {
 /* Quality and Work and Team */
 
 .quality-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   color: var(--primary-text-color);
 
   font-style: normal;
@@ -126,11 +183,22 @@ body {
 }
 
 .quality-text {
+  margin-top: 0;
+  margin-bottom: 0;
+
   font-size: 14px;
   line-height: 1.17;
 }
 
+.quality-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
   color: var(--primary-text-color);
 
   font-style: normal;
@@ -140,7 +208,15 @@ body {
   text-align: center;
 }
 
+.work-section,
+.team-section {
+  padding-bottom: 94px;
+}
+
 .team-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
   color: var(--primary-text-color);
 
   font-style: normal;
@@ -151,6 +227,9 @@ body {
 }
 
 .team-text {
+  margin-top: 0;
+  margin-bottom: 0px;
+
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -167,6 +246,9 @@ body {
 }
 
 .address {
+  padding-top: 20px;
+  padding-bottom: 60px;
+
   color: var(--white-text-color);
 
   font-style: normal;
@@ -176,6 +258,10 @@ body {
 }
 
 .footer-logo {
+  display: inline-block;
+  padding-top: 60px;
+  padding-bottom: 0;
+
   color: var(--white-text-color);
 
   font-family: Raleway, sans-serif;
@@ -183,6 +269,12 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+}
+
+.footer-link {
+  display: inline-block;
+  margin-top: 9px;
+  margin-bottom: 0;
 }
 
 .address .footer-link {
