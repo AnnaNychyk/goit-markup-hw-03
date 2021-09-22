@@ -233,6 +233,11 @@ body {
   padding-bottom: 94px;
 }
 
+.sign{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .work-items {
   display: flex;
 }
@@ -242,7 +247,6 @@ body {
 }
 
 .team-title {
-  margin-top: 30px;
   margin-bottom: 10px;
 
   color: var(--primary-text-color);
@@ -360,13 +364,13 @@ body {
 
 .projects-button {
   padding: 6px 22px;
-  margin-right: 8px;
   border-radius: 4px;
   border: 0;
 
 
   cursor: pointer;
   color: var(--primary-text-color);
+  background-color: #F5F4FA;
 
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -376,7 +380,7 @@ body {
   text-align: center;
 }
 
-.projects-button:not(:first-child){
+.projects-items > .item:not(:first-child) {
   margin-left: 8px;
 }
 
